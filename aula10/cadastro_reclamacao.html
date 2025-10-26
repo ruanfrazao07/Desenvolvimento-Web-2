@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nova Reclamação</title>
+</head>
+<body>
+    <h1>Registrar Nova Reclamação</h1>
+    <form action="salva_reclamacao.php" method="POST" enctype="multipart/form-data">
+        Título: <input type="text" name="titulo" required><br>
+        Descrição:<br>
+        <textarea name="descricao" rows="5" cols="40"></textarea><br>
+        Foto (opcional): <input type="file" name="foto"><br><br>
+        <button type="submit">Enviar Reclamação</button>
+    </form>
+    <br>
+    <a href="minhas_reclamacoes.php">Voltar</a>
+</body>
+</html>
